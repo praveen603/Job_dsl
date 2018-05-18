@@ -3,9 +3,8 @@ job('seed') {
     scm {
         git{
             remote{
-                url('ssh://git@172.16.10.28:2222/devops.git')
+                url('https://github.com/praveen603/Job_dsl.git')
                 branch('master')
-                credentials('e0ce4893-3c53-4fc1-817e-cae0c0074bc2')
            }
         }
     }
